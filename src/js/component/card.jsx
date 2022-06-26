@@ -6,7 +6,6 @@ const styles = {
 }
 
 const Card = (props)=>{
-
     return (
         
         <div className="card" style={styles}>

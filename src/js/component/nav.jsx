@@ -1,19 +1,15 @@
-import React from "react"
-import { useState } from "react"
-
-const view = {
-    display: "block"
-}
+import React from "react";
+import { useState } from "react";
 
 const Navbar = () => {
 
-    const [lista, setMenu] = useState(false) 
+    const [lista, setMenu] = useState(false) ;
 
     let active = ()=>{
         if(lista === false){
-            return setMenu(true)
+            return setMenu(true);
         }else{
-            return setMenu(false)
+            return setMenu(false);
         };
     }
     
@@ -52,12 +48,9 @@ const Navbar = () => {
                         <li className="m-2"><a className="a-item" href="#">Contact</a></li>
                     </ul>
                 </div>
-
             </nav>
-
-        </>
-       
-    )
-}
+       </>         
+    );
+};
 
 export default Navbar

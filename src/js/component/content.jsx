@@ -24,7 +24,6 @@ const Content = () => {
             <div className="row bg-dark footer">
                 <Footer/>
             </div>
-
         </div>
     )
 }
